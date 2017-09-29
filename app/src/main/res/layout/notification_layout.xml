@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/notification_artist_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="8dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/notification_music_title"
+        style="@style/both_wrap_style"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/notification_artist_image"
+        android:focusable="true"
+        android:textColor="#FFADABFF"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp"
+        android:text="title"/>
+
+
+    <ImageView
+        android:id="@+id/notification_exit_button"
+        style="@style/both_wrap_style"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+       android:src="@mipmap/ic_scenic_close"/>
+
+    <ImageView
+        android:id="@+id/notification_play_button"
+        android:layout_centerInParent="true"
+        style="@style/both_wrap_style"
+        android:padding="5dp" />
+</RelativeLayout>

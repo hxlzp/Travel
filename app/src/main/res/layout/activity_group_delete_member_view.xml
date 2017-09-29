@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_group_delete_member_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/groupDeleteTitle"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_group_delete_member_back"
+            style="@style/titleBtn"/>
+        <Button
+            android:id="@+id/btn_activity_group_delete_member"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/iv_activity_group_delete_member_back" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_activity_group_delete_member"
+        android:layout_below="@+id/rl"
+        style="@style/both_match_style">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/both_match_style"
+    tools:context="com.example.hxl.travel.ui.fragments.LinkerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.example.hxl.travel.ui.view.LinkerView
+        android:id="@+id/linker_view"
+        style="@style/both_match_style"/>
+
+</RelativeLayout>

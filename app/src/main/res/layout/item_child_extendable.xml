@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/round_image_fragment_group_item"
+        app:riv_border_width="0dp"
+        app:riv_corner_radius="100dp"
+        style="@style/roundImageMessage" />
+    <TextView
+        android:id="@+id/tv_fragment_group_item"
+        style="@style/both_wrap_style"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textColor="@color/light_back"
+        android:layout_toRightOf="@+id/round_image_fragment_group_item"
+        android:layout_marginLeft="15dp" />
+</RelativeLayout>

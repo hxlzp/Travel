@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_group_chat_back"
+            style="@style/backIcon" />
+        <TextView
+            android:id="@+id/tv_activity_group_chat_title"
+            android:textSize="16sp"
+            android:layout_alignBottom="@+id/iv_activity_group_chat_back"
+            android:layout_marginBottom="8dp"
+            style="@style/titleBtn"/>
+        <Button
+            android:id="@+id/btn_activity_group_chat_detail"
+            android:background="@null"
+            android:drawableRight="@mipmap/ic_friend_build_group"
+            android:layout_alignTop="@+id/iv_activity_group_chat_back"
+            android:layout_alignParentRight="true"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            style="@style/both_wrap_style"/>
+    </RelativeLayout>
+</RelativeLayout>

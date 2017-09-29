@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_location_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/selectAddress"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_location_back"
+            style="@style/titleBtn"/>
+    </RelativeLayout>
+    <ListView
+        android:layout_below="@+id/rl"
+        android:id="@+id/list_view_recommend"
+        style="@style/both_match_style"/>
+    <com.example.hxl.travel.widget.SideBar
+        android:id="@+id/side_bar_recommend"
+        style="@style/both_match_style"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:textColor="@color/themeColor"
+        android:textSize="12sp" />
+</RelativeLayout>

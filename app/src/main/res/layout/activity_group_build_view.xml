@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_group_build_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/buildGroup"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_group_build_back"
+            style="@style/titleBtn"/>
+    </RelativeLayout>
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_activity_group_build_select"
+        android:layout_below="@+id/rl"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_add_pic"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        app:riv_corner_radius="100dp"
+        app:riv_border_width="0dp"/>
+    <RelativeLayout
+        android:id="@+id/rl_activity_group_build_nickname_edit"
+        android:layout_centerInParent="true"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/tv_activity_group__build_nickname_edit"
+            android:text="@string/groupName"
+            android:drawableLeft="@mipmap/ic_nickname"
+            android:drawablePadding="-10dp"
+            style="@style/dialogBtnTitle"/>
+        <EditText
+            android:id="@+id/edit_activity_group_build_nickname_edit"
+            android:layout_toRightOf="@+id/tv_activity_group__build_nickname_edit"
+            android:inputType="text"
+            android:hint="@string/groupNameHint"
+            style="@style/dialogEditHint"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_activity_group_build_password_commit"
+        style="@style/LoginBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit" />
+</RelativeLayout>

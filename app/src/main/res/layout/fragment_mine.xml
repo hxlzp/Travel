@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/both_match_style"
+    tools:context="com.example.hxl.travel.ui.fragments.MineFragment">
+    <com.example.hxl.travel.ui.view.MineView
+        android:id="@+id/mine_View"
+        style="@style/both_match_style">
+    </com.example.hxl.travel.ui.view.MineView>
+</RelativeLayout>

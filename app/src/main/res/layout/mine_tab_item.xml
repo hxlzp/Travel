@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <ImageView
+        android:id="@+id/iv_mine_tab"
+        style="@style/both_wrap_style"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_mine_tab"
+        android:layout_below="@+id/iv_mine_tab"
+        style="@style/both_wrap_style"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"/>
+</RelativeLayout>

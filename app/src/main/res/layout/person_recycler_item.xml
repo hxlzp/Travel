@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/wmatch_hFifty_style">
+    <Button
+        android:id="@+id/btn_activity_person"
+        style="@style/mineLeftBtn" />
+    <ImageView
+        android:id="@+id/iv_activity_person"
+        android:src="@mipmap/ic_selected"
+        android:visibility="invisible"
+        android:layout_height="match_parent"
+        android:layout_width="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"/>
+    <View
+        android:layout_alignParentBottom="true"
+        style="@style/line" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/themeColor">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_fragment_friend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            app:tabIndicatorHeight="2dp"
+            app:tabIndicatorColor="@color/white"
+            app:tabTextColor="@color/gray"
+            app:tabSelectedTextColor="@color/white">
+        </android.support.design.widget.TabLayout>
+        <ImageView
+            android:id="@+id/iv_fragment_friend_add"
+            android:src="@mipmap/ic_friend_add"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            style="@style/both_wrap_style"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_fragment_friend"
+        android:layout_below="@+id/rl"
+        android:background="@color/white"
+        style="@style/both_match_style">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

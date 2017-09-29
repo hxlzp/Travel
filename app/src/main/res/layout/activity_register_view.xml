@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style"
+    android:background="@mipmap/ic_login_bg">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/lmatch_hwrap_style">
+        <ImageView
+            android:id="@+id/iv_activity_register_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/register"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_register_back"
+            style="@style/titleBtn"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_activity_login_icon"
+        android:layout_below="@+id/rl"
+        style="@style/icon"/>
+
+    <TextView
+        android:id="@+id/tv_login_app_name"
+        android:layout_below="@+id/iv_activity_login_icon"
+        style="@style/loginTitle"/>
+
+    <EditText
+        android:id="@+id/et_activity_register_phone"
+        android:layout_below="@+id/tv_login_app_name"
+        android:hint="@string/register_phone_hint"
+        android:inputType="phone"
+        android:digits="@string/onlyInputNumber"
+        style="@style/loginEdit"
+        android:theme="@style/loginBtnTheme"/>
+    <EditText
+        android:id="@+id/et_activity_register_pwd"
+        android:layout_below="@+id/et_activity_register_phone"
+        android:hint="@string/login_password_hint"
+        android:inputType="textPassword"
+        android:digits="@string/onlyInputNumberOrLetter"
+        style="@style/loginEdit"
+        android:theme="@style/loginBtnTheme"/>
+    <TextView
+        android:id="@+id/tv_activity_register"
+        android:text="@string/register"
+        style="@style/LoginBtn"
+        android:layout_below="@+id/et_activity_register_pwd" />
+</RelativeLayout>

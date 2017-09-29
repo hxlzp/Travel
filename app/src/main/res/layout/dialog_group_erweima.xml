@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <Button
+        android:id="@+id/btn_group_title"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        style="@style/both_wrap_style"/>
+    <ImageView
+        android:id="@+id/iv_dialog_group_erweima"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        style="@style/both_wrap_style"/>
+</RelativeLayout>

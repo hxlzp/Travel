@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="240dp">
+    <WebView
+        android:id="@+id/web_item"
+        style="@style/both_match_style">
+    </WebView>
+</RelativeLayout>

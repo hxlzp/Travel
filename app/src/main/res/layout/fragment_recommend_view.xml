@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        style="@style/both_match_style">
+        <com.example.hxl.travel.widget.SpringView
+            android:id="@+id/fragment_recommend_spring"
+            style="@style/both_match_style">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fragment_recommend_list"
+                android:scrollbars="none"
+                style="@style/both_match_style"/>
+        </com.example.hxl.travel.widget.SpringView>
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:visibility="gone"
+            android:background="@color/themeColor">
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/translucent">
+            <Button
+                android:id="@+id/btn_fragment_recommend_grcode"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                style="@style/grCodeScanner"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/btn_fragment_recommend_grcode" />
+            <TextView
+                android:id="@+id/tv_fragment_recommend_location"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignBottom="@+id/btn_fragment_recommend_grcode"
+                android:clickable="true"
+                android:drawableLeft="@mipmap/ic_recommend_location"
+                android:gravity="center_vertical"
+                android:drawablePadding="2dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:text="@string/currentLocation"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_progress"
+            android:visibility="gone"
+            style="@style/progress">
+            <ImageView
+                android:id="@+id/iv_progress"
+                android:background="@drawable/progress"
+                android:layout_centerHorizontal="true"
+                style="@style/both_wrap_style" />
+            <TextView
+                android:layout_below="@+id/iv_progress"
+                style="@style/progress_text" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_network"
+        android:visibility="gone"
+        style="@style/network">
+        <TextView
+            android:id="@+id/tv_network"
+            style="@style/network_text"/>
+        <TextView
+            android:id="@+id/tv_network_refresh"
+            android:layout_below="@+id/tv_network"
+            style="@style/network_refresh"/>
+    </RelativeLayout>
+
+</RelativeLayout>

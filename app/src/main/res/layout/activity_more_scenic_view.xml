@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_scenic_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/hotRecommend"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_scenic_back"
+            style="@style/titleBtn"/>
+    </RelativeLayout>
+    <com.example.hxl.travel.widget.SpringView
+        android:id="@+id/sv_more_scenic"
+        android:layout_below="@+id/rl"
+        style="@style/both_match_style">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rl_more_scenic"
+            style="@style/both_match_style">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.example.hxl.travel.widget.SpringView>
+</RelativeLayout>

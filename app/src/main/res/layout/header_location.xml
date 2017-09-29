@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/lwrap_hmatch_style">
+        <TextView
+            style="@style/both_wrap_style"
+            android:text="@string/hotLocation"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+    <com.example.hxl.travel.widget.FlowLayout
+        android:id="@+id/fl_activity_location"
+        android:layout_below="@+id/rl"
+        android:padding="5dp"
+        style="@style/both_match_style">
+
+    </com.example.hxl.travel.widget.FlowLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/popupWindow">
+
+    <RelativeLayout
+        android:id="@+id/rl_hospital"
+        android:layout_centerHorizontal="true"
+        style="@style/both_wrap_style">
+        <Button
+            android:id="@+id/btn_popup_hospital"
+            android:text="@string/hospitalHelp"
+            style="@style/helpPopup"/>
+        <CheckBox
+            android:id="@+id/cb_popup_hospital"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/btn_popup_hospital"
+            android:tag="0"
+            style="@style/both_wrap_style"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/line_hospital"
+        android:layout_below="@+id/rl_hospital"
+        style="@style/line_dialog"
+        ></View>
+    <RelativeLayout
+        android:id="@+id/rl_police"
+        android:layout_below="@+id/line_hospital"
+        android:layout_centerHorizontal="true"
+        style="@style/both_wrap_style">
+        <Button
+            android:id="@+id/btn_popup_police"
+            android:text="@string/policeHelp"
+            style="@style/helpPopup"/>
+        <CheckBox
+            android:id="@+id/cb_popup_police"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/btn_popup_police"
+            android:tag="1"
+            style="@style/both_wrap_style"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/line_police"
+        android:layout_below="@+id/rl_police"
+        style="@style/line_dialog"
+        ></View>
+    <Button
+        android:id="@+id/btn_popup_help"
+        android:layout_below="@+id/rl_police"
+        android:layout_centerHorizontal="true"
+        android:text="@string/help"
+        android:drawablePadding="0dp"
+        android:textColor="@color/scenicGrayColor"
+        style="@style/helpPopup" />
+
+</RelativeLayout>

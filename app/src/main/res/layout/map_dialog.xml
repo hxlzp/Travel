@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <TextView
+        android:id="@+id/tv_longitude"
+        android:text="经度："
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        style="@style/both_wrap_style"/>
+    <TextView
+        android:id="@+id/tv_latitude"
+        android:text="纬度："
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        style="@style/both_wrap_style"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/lmatch_hwrap_style"
+    android:background="@color/white">
+    <com.example.hxl.travel.widget.RollPagerView
+        android:id="@+id/pv_fragment_travel_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:rollviewpager_play_delay="2000"/>
+    <View
+        android:id="@+id/line"
+        android:layout_below="@+id/pv_fragment_travel_banner"
+        android:layout_height="6dp"
+        style="@style/line_home"/>
+    <RelativeLayout
+        android:layout_below="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            style="@style/both_wrap_style"
+            android:text="@string/choiceness"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+</RelativeLayout>

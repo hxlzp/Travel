@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.hxl.travel.widget.ExpandMoreView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expand_view"
+    android:background="@color/white"
+    android:layout_marginTop="5dp"
+    style="@style/lmatch_hwrap_style"
+    app:titleColor="@color/black"
+    app:stayColor="@color/scenicGrayColor"
+    app:playDataColor="@color/scenicGrayColor"
+    app:playColor="@color/black"
+    app:playTimeColor="@color/scenicGrayColor"
+    app:consumeTitleColor="@color/black"
+    app:consumeMoneyTitleColor="@color/scenicGrayColor">
+
+
+</com.example.hxl.travel.widget.ExpandMoreView>

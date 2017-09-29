@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringView">
+        <attr name="type">
+            <enum name="overlap" value="0"/>
+            <enum name="follow" value="1"/>
+        </attr>
+        <attr name="give">
+            <enum name="both" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="none" value="3"/>
+        </attr>
+        <attr name="header" format="reference"/>
+        <attr name="footer" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TopBar">
+        <attr name="title" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftBackground" format="color|reference"/>
+        <attr name="leftWidth" format="dimension"/>
+        <attr name="leftHeight" format="dimension"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="color|reference"/>
+        <attr name="rightWidth" format="dimension"/>
+        <attr name="rightHeight" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="lineHeight" format="dimension"/>
+    </declare-styleable>
+
+    <!--贝塞尔-->
+    <declare-styleable name="BezierRoundView">
+        <attr name="color_bez" format="color"/>
+        <attr name="color_touch" format="color"/>
+        <attr name="color_stroke" format="color"/>
+        <attr name="time_animator" format="integer"/>
+        <attr name="round_count" format="integer"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+    <!--字母列表-->
+    <declare-styleable name="SideBar">
+        <attr name="scaleSize" format="integer"/>
+        <attr name="scaleItemCount" format="integer"/>
+        <attr name="scaleWidth" format="dimension"/>
+    </declare-styleable>
+    <!--展开与收起-->
+    <declare-styleable name="MoreTextView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="maxLine" format="integer" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandMoreView">
+        <!--景区名称-->
+        <attr name="titleText" format="string"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleColor" format="color"/>
+        <!--逗留时间-->
+        <attr name="stayText" format="string"/>
+        <attr name="staySize" format="dimension"/>
+        <attr name="stayColor" format="color"/>
+        <!--游玩日期-->
+        <attr name="playDataText" format="string"/>
+        <attr name="playDataSize" format="dimension"/>
+        <attr name="playDataColor" format="color"/>
+        <!--游玩标题-->
+        <attr name="playText" format="string"/>
+        <attr name="playSize" format="dimension"/>
+        <attr name="playColor" format="color"/>
+        <!--游玩时间-->
+        <attr name="playTimeText" format="string"/>
+        <attr name="playTimeSize" format="dimension"/>
+        <attr name="playTimeColor" format="color"/>
+        <!--消费标题-->
+        <attr name="consumeTitleText" format="string"/>
+        <attr name="consumeTitleSize" format="dimension"/>
+        <attr name="consumeTitleColor" format="color"/>
+        <!--消费金额-->
+        <attr name="consumeMoneyText" format="string"/>
+        <attr name="consumeMoneyTitleSize" format="dimension"/>
+        <attr name="consumeMoneyTitleColor" format="color"/>
+        <!--箭头-->
+        <attr name="arrowsIcon" format="reference"/>
+        <!--下划线-->
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="lineFootprintColor" format="color"/>
+
+        <!--标题icon-->
+        <attr name="scenicIcon" format="reference"/>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <com.example.hxl.travel.ui.view.WebMapView
+        android:id="@+id/web_map_view"
+        style="@style/both_match_style">
+    </com.example.hxl.travel.ui.view.WebMapView>
+</merge>
+

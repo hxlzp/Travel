@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_fragment_friend"
+        android:layout_below="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_fragment_friend"
+        android:layout_below="@+id/tab_fragment_friend"
+        android:background="@color/white"
+        style="@style/both_match_style">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

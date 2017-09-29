@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">魔镜趣游</string>
+
+    <!--布局中-->
+
+    <!--welcome欢迎页面-->
+    <string name="welcome_text">杭州海筹数据技术有限公司</string>
+
+    <!--Main-->
+    <string name="recommend">首页</string>
+    <string name="privilege">旅游圈</string>
+    <string name="friend">朋友</string>
+    <string name="mine">我的</string>
+    <!--Search搜索-->
+    <string name="search">搜索</string>
+    <string name="search_hint">请输入景点</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_result">搜索结果</string>
+
+    <!--Login登陆-->
+    <string name="login">登陆</string>
+    <string name="login_account_hint">请输入手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="forgetPwd">忘记密码？</string>
+    <string name="thirdpartyLogin">使用第三方登陆</string>
+    <string name="loginSuccess">登陆成功</string>
+    <string name="loginFail">登陆失败</string>
+    <string name="networkFail">网络服务器连接失败</string>
+    <!--Register注册-->
+    <string name="register">注册</string>
+    <string name="register_name_hint">请输入昵称</string>
+    <string name="register_phone_hint">请输入手机号</string>
+    <string name="register_code_hint">请输入验证码</string>
+    <string name="registerSuccess">注册成功</string>
+
+
+    <!--首页-->
+    <string name="MyRecommend">推荐</string>
+    <string name="hotRecommend">热门推荐</string>
+    <string name="more">更多</string>
+    <string name="tour">出游</string>
+    <string name="strategy">攻略</string>
+    <!--旅行圈-->
+    <string name="choiceness">精选专题</string>
+    <!--WebMap-->
+    <string name="webLoading">页面加载中，请稍后..</string>
+    <string name="contactPhone">联系电话：</string>
+    <string name="netFail">网络开小车喽</string>
+
+    <!--My-->
+    <!--Mine 我的页面-->
+    <string name="loginExperienceMore">请登录</string>
+    <string name="mySignature">"You raise me up"</string>
+    <string name="myAttention">关注13</string>
+    <string name="myFans">粉丝28</string>
+
+    <!--Setting设置-->
+    <string name="setting">我的设置</string>
+    <string name="clearCache">清除缓存</string>
+    <string name="safetyQuit">安全退出</string>
+    <!--PersonInfo个人信息-->
+    <string name="personInfo">个人资料</string>
+    <string name="account">账号</string>
+    <string name="phone">15911168949</string>
+    <string name="sex">性别</string>
+    <string name="photo">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="address">地区</string>
+    <!--Age年龄-->
+    <string name="age">年龄</string>
+    <!--Education学历-->
+    <string name="education">学历</string>
+    <!--address地址-->
+    <string name="selectAddress">选择地区</string>
+    <string name="currentLocation">戴村镇</string>
+    <string name="hotLocation">热门景区</string>
+    <!--About关于-->
+    <string name="about">关于</string>
+    <string name="aboutVersions">关于我们</string>
+    <string name="version">版本更新</string>
+    <string name="versionCode">1.0.0</string>
+    <string name="copyright">Copyright 2017.All right reserved.</string>
+
+    <!--Friend页面-->
+    <string name="edit">编辑</string>
+    <string name="quit">退 出</string>
+    <string name="dissolve">解 散</string>
+    <!--Message消息-->
+    <string name="withoutMessage">暂无消息</string>
+    <string name="Linkman">暂无联系人</string>
+    <!--Group页面-->
+    <!--GroupBuild创建群组-->
+    <string name="buildGroup">创建群组</string>
+    <string name="groupName">群昵称</string>
+    <string name="groupNameHint">给群起个名字喔</string>
+    <string name="groupPwdHint">请输入您的密码</string>
+    <string name="submit">提 交</string>
+    <string name="groupNicknameHint">群昵称不可为空哦</string>
+    <string name="groupBuildSuccess">群组创建成功！</string>
+    <string name="groupBuildFail">群组创建失败！</string>
+    <string name="groupBuildExist">该群组已存在，请重新创建创！</string>
+    <!--GroupChat群组聊天-->
+    <string name="groupChartTitle">一起游啊游</string>
+    <!--GroupDelete群组删除成员-->
+    <string name="groupDeleteTitle">群组成员</string>
+    <string name="delete">删 除</string>
+    <string name="deleteGroupMemberSuccess">踢出成员成功！</string>
+    <string name="deleteGroupMemberFail">踢出成员失败！</string>
+
+    <!--手机联系人-->
+    <string name="addressLinker">手机联系人</string>
+
+    <string name="scenicDetail">
+        苏堤南起南屏山麓，北到栖霞岭下，全长近三公里，他是北宋大诗人苏东坡任杭州知州时，疏浚西湖，
+        利用挖出的葑泥构筑而成。后人为了纪念苏东坡治理西湖的功绩将她命名为苏堤。苏堤上的六座拱桥，
+        自南向北依名为映波、锁澜、望山、压堤、东浦和跨虹。苏堤的特点是一柳三桃，飞柳熏风，柳绿桃红。
+    </string>
+
+    <string name="scenicIntroduce">景点介绍</string>
+
+    <!--popup弹窗-->
+    <string name="detail">详情</string>
+    <string name="navigator">立即导航</string>
+
+    <string name="hospitalHelp">医疗求助</string>
+    <string name="policeHelp">报警求助</string>
+    <string name="help">求助</string>
+
+
+    <!--网络连接-->
+    <string name="network_error">咦,网络连接失败喽!</string>
+    <string name="refresh">刷新试试</string>
+
+    <!--刷新进度条-->
+    <string name="progress">正在努力加载中...</string>
+
+    <!--旅行圈-->
+    <string-array name="travelTabs">
+        <item>精选</item>
+        <item>商城</item>
+    </string-array>
+
+
+    <!--Scanner-->
+    <string name="scannerTitle">加好友</string>
+    <string name="confirmAddFriend">确定加好友</string>
+    <string name="scannerCommon">(共</string>
+    <string name="scannerPerson">人)</string>
+
+    <!--Dialog-->
+    <!--clearCache-->
+    <string name="confirmClearCache">确定清除本地缓存？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <!--exitLogin退出登陆-->
+    <string name="confirmQuitLogin">确定退出登录？</string>
+    <!--nickName昵称-->
+    <string name="modificationNick">修改昵称</string>
+    <!--addGroup-->
+    <string name="addGroup">加入群组</string>
+    <string name="groupNicknameAddHint">请输入加入群的昵称</string>
+    <string name="groupPwd">群密码</string>
+    <!--invite邀请入群-->
+    <string name="inviteAddGroup">邀请加群</string>
+    <string name="invitedUserName">请输入被邀请人的用户名</string>
+    <string name="userName">用户名</string>
+    <!--是否登录-->
+    <string name="whetherLogin">您需要登录才能进行哦，是否需要登录？</string>
+
+    <!--popup弹窗-->
+    <!--groupExit-->
+    <string name="dissolveGroup">解散群组</string>
+    <string name="exitGroup">退出群组</string>
+    <!--selectPic-->
+    <string name="camera">拍照</string>
+    <string name="photoAlbum">从相册中选择</string>
+
+
+    <!--代码中-->
+    <!--Login-->
+    <string name="accountEmpty">账号不可为空ヽ(≧Д≦)ノ</string>
+    <string name="phoneError">手机号不匹配ヽ(≧Д≦)ノ</string>
+    <string name="passwordEmpty">密码不可为空ヽ(≧Д≦)ノ</string>
+    <string name="nicknameEmpty">昵称不可为空ヽ(≧Д≦)ノ</string>
+    <string name="nicknameGreaterError">昵称不可大于20个字符ヽ(≧Д≦)ノ</string>
+    <string name="nicknameLessError">昵称不可小于2个字符ヽ(≧Д≦)ノ</string>
+    <string name="phoneEmpty">手机号不可为空ヽ(≧Д≦)ノ</string>
+    <string name="codeEmpty">验证码不可为空ヽ(≧Д≦)ノ</string>
+    <string name="passwordIsNumberOrLetter">密码必须是数字和字母ヽ(≧Д≦)ノ</string>
+    <string name="passwordLengthError">密码至少需要6位数ヽ(≧Д≦)ノ</string>
+    <string name="onlyInputNumber">0123456789</string>
+    <string name="onlyInputNumberOrLetter">0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._</string>
+    <string name="registerAlready">手机号码已注册，请重新注册!</string>
+    <string name="userNameEmpty">用户名不可为空ヽ(≧Д≦)ノ</string>
+
+    <!--添加群组-->
+    <string name="addGroupSuccess">加入群组成功！</string>
+    <string name="addGroupFail">加入群组失败！</string>
+    <string name="addGroupNoExist">您加入的群组不存在！</string>
+    <string name="addGroupExist">您已经加入该群了！</string>
+    <!--解散群详情-->
+    <string name="dissolveGroupSuccess">解散群组成功！</string>
+    <string name="dissolveGroupFail">解散群组失败！</string>
+    <!--退出群详情-->
+    <string name="quitGroupSuccess">退出群组成功！</string>
+    <string name="quitGroupFail">退出群组失败！</string>
+    <!--邀请入群-->
+    <string name="InviteGroupSuccess">邀请成功！</string>
+    <string name="InviteGroupFail">邀请失败！</string>
+    <string name="InviteGroupNoExist">您邀请的好友不存在！</string>
+    <string name="InviteGroupExist">该用户已在邀请的群中！</string>
+
+    <!--group群组-->
+    <string name="groupNicknameAdd">我加入的群</string>
+    <string name="groupNicknameBuild">我创建的群</string>
+
+
+    <!--地图-->
+    <string name="isGaode">您已切换到高德地图</string>
+    <string name="isFreehand">您已切换到景点地图</string>
+    <string name="isVoice">您已开启语音助手</string>
+    <string name="notVoice">您已关闭语音助手</string>
+    <string name="isLocation">您已开启群组成员位置</string>
+    <string name="notLocation">您已关闭群组成员位置</string>
+
+
+    <!--首页-->
+    <array name="gridNames">
+        <item>美食</item>
+        <item>住宿</item>
+        <item>游乐</item>
+        <item>休闲</item>
+        <item>派出所</item>
+        <item>医院</item>
+        <item>卫生间</item>
+        <item>停车场</item>
+
+    </array>
+
+    <!--Friend页面-->
+    <!--FriendPresenter-->
+    <array name="group">
+        <item>联系人</item>
+        <item>群组</item>
+    </array>
+
+
+    <array name="groupEdit">
+        <item>创建群组</item>
+        <item>加入群组</item>
+        <!--<item>邀请入群</item>-->
+        <!--<item>退出群组</item>-->
+    </array>
+    <!--mime-->
+
+    <array name="mineItems">
+        <item>我的足迹</item>
+        <item>我的游记</item>
+        <item>我的攻略</item>
+        <item>我的关注</item>
+        <item>我的收藏</item>
+        <item>联系客服</item>
+        <item>我的反馈</item>
+    </array>
+
+    <array name="mapTab">
+        <item>景区</item>
+        <item>美食</item>
+        <item>住宿</item>
+        <item>购物</item>
+        <item>医院</item>
+        <item>银行</item>
+        <item>派出所</item>
+        <item>停车场</item>
+        <item>卫生间</item>
+    </array>
+
+    <array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </array>
+    <array name="age">
+        <item>20岁以下</item>
+        <item>20-30岁</item>
+        <item>30-40岁</item>
+        <item>40-50岁</item>
+        <item>50-60岁</item>
+        <item>60岁以上</item>
+    </array>
+    <array name="education">
+        <item>小学以下</item>
+        <item>小学</item>
+        <item>初中</item>
+        <item>高中</item>
+        <item>专科</item>
+        <item>本科</item>
+        <item>硕士</item>
+        <item>博士</item>
+        <item>博士以上</item>
+    </array>
+    <string-array name="title">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>浙江</item>
+        <item>山东</item>
+        <item>江苏</item>
+        <item>广东</item>
+        <item>安徽</item>
+        <item>黑龙江</item>
+        <item>福建</item>
+        <item>山西</item>
+        <item>吉林</item>
+        <item>湖北</item>
+        <item>新疆</item>
+        <item>河南</item>
+        <item>河北</item>
+        <item>湖南</item>
+    </string-array>
+
+
+    <string-array name="tiles">
+        <item>三清茶</item>
+        <item>牛石山</item>
+        <item>华克山庄</item>
+        <item>牛歌山庄</item>
+        <item>向天岭水库</item>
+        <item>亿年火山石</item>
+    </string-array>
+
+    <string-array name="playData">
+        <item>2017.8.5</item>
+        <item>2017.8.5</item>
+        <item>2017.8.6</item>
+        <item>2017.8.7</item>
+        <item>2017.8.8</item>
+        <item>2017.8.9</item>
+    </string-array>
+
+    <string-array name="stayTime">
+        <item>去过2个小时</item>
+        <item>去过3个小时</item>
+        <item>去过1个小时</item>
+        <item>去过4个小时</item>
+        <item>去过2个小时</item>
+        <item>去过3个小时</item>
+    </string-array>
+
+    <string-array name="playTime">
+        <item>9:10-11:10</item>
+        <item>14:20-15:25</item>
+        <item>10:30-11:30</item>
+        <item>9:20-13:20</item>
+        <item>14:40-15:40</item>
+        <item>8:30-11:30</item>
+    </string-array>
+
+    <string-array name="consumeMoney">
+        <item>199元</item>
+        <item>99元</item>
+        <item>59元</item>
+        <item>299元</item>
+        <item>89元</item>
+        <item>119元</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

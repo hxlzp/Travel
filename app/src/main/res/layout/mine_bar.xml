@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/lmatch_hwrap_style"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.CollapsingToolbarLayout
+        style="@style/both_match_style"
+        android:fitsSystemWindows="true"
+        app:collapsedTitleGravity="center"
+        app:expandedTitleGravity="center"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+        <RelativeLayout
+            style="@style/both_match_style"
+            app:layout_collapseMode="parallax"
+            app:layout_collapseParallaxMultiplier="0.7">
+            <ImageView
+                style="@style/both_match_style"
+                android:scaleType="fitXY"
+                android:src="@mipmap/bg_mine" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_fragment_mine_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/photo"
+                android:scaleType="fitXY"
+                app:riv_border_width="0dp"
+                app:riv_corner_radius="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"/>
+            <RelativeLayout
+                android:id="@+id/not_login"
+                android:layout_below="@+id/iv_fragment_mine_photo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/mine_login_bg"
+                style="@style/both_wrap_style">
+                <TextView
+                    android:id="@+id/btn_fragment_mine_name"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:clickable="true"
+                    style="@style/myNickname"
+                    android:text="@string/loginExperienceMore" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/complete_login"
+                android:layout_below="@+id/iv_fragment_mine_photo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                style="@style/both_wrap_style"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/btn_fragment_mine_nickname"
+                    android:textSize="18sp"
+                    android:layout_centerHorizontal="true"
+                    style="@style/myNickname" />
+                <RelativeLayout
+                    android:id="@+id/rl_attention"
+                    android:layout_below="@+id/btn_fragment_mine_nickname"
+                    android:layout_marginTop="10dp"
+                    style="@style/both_wrap_style">
+                    <TextView
+                        android:id="@+id/tv_fragment_mine_fans"
+                        android:text="@string/myFans"
+                        android:textSize="14sp"
+                        android:layout_marginRight="15dp"
+                        style="@style/myNickname" />
+                    <TextView
+                        android:id="@+id/tv_fragment_mine_attention"
+                        android:layout_toRightOf="@+id/tv_fragment_mine_fans"
+                        android:text="@string/myAttention"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="15dp"
+                        style="@style/myNickname" />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/tv_fragment_mine_signature"
+                    android:layout_below="@+id/rl_attention"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mySignature"
+                    android:layout_centerHorizontal="true"
+                    style="@style/myNickname" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_fragment_mine"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_collapseMode="pin"
+            android:paddingTop="20dp">
+        </android.support.v7.widget.Toolbar>
+        <ImageView
+            android:id="@+id/iv_fragment_mine_setting"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/ic_my_setting"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+            android:padding="10dp"/>
+    </android.support.design.widget.CollapsingToolbarLayout>
+</android.support.design.widget.AppBarLayout>

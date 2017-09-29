@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/both_match_style">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <android.support.design.widget.CollapsingToolbarLayout
+            style="@style/lmatch_hwrap_style"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:statusBarScrim="@android:color/transparent">
+            <ImageView
+                android:id="@+id/iv_activity_group_detail_photo"
+                android:src="@mipmap/bg_mine"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:layout_collapseMode="parallax"/>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_activity_group_detail"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="?android:attr/actionBarSize"
+                app:layout_collapseMode="pin" >
+            </android.support.v7.widget.Toolbar>
+            <ImageView
+                android:id="@+id/iv_activity_group_detail_menu"
+                android:src="@mipmap/ic_group_detail_menu"
+                style="@style/rightIcon"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="0dp"/>
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_activity_group_chat_detail_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/photo"
+                app:riv_border_width="0dp"
+                app:riv_corner_radius="100dp"
+                android:layout_gravity="center"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.7"/>
+            <TextView
+                android:id="@+id/tv_activity_group_nickname"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:layout_gravity="bottom|center_horizontal"
+                style="@style/both_wrap_style" />
+            <ImageView
+                android:id="@+id/iv_activity_group_erweima"
+                android:layout_gravity="bottom|right"
+                android:src="@mipmap/ic_group_erweima"
+                android:padding="12dp"
+                style="@style/both_wrap_style"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_activity_group_detail"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        style="@style/both_match_style">
+    </android.support.v7.widget.RecyclerView>
+</android.support.design.widget.CoordinatorLayout>

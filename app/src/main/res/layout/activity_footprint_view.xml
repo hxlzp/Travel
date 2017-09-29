@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_fontprint"
+        style="@style/both_match_style">
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/iv_activity_footprint_back"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_backalpha"
+        style="@style/both_wrap_style"/>
+</RelativeLayout>

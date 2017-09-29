@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/lmatch_hwrap_style">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_activity_group_member_item"
+        app:riv_border_width="0dp"
+        app:riv_corner_radius="100dp"
+        android:layout_margin="10dp"
+        style="@style/groupImg"/>
+    <TextView
+        android:id="@+id/tv_activity_group_member_item"
+        android:textSize="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_activity_group_member_item"
+        style="@style/both_wrap_style"/>
+    <CheckBox
+        android:id="@+id/cb_activity_group_member_item"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        style="@style/both_wrap_style"/>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl_group_build"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+        <TextView
+            style="@style/groupTopText"
+            android:drawableLeft="@mipmap/ic_group_build_add"
+            android:text="@string/buildGroup" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/line_group"
+        android:layout_below="@+id/rl_group_build"
+        android:layout_height="6dp"
+        style="@style/line_home"/>
+    <ExpandableListView
+        android:id="@+id/expandable_id"
+        android:layout_below="@+id/line_group"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@color/white"
+        style="@style/both_match_style"/>
+</RelativeLayout>

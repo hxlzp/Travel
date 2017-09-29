@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    style="@style/both_match_style">
+    <!--cardUseCompatPadding 设置阴影之后自动缩小布局大小-->
+    <ImageView
+        android:id="@+id/item_iv"
+        style="@style/both_match_style"
+        android:scaleType="fitXY" />
+
+</android.support.v7.widget.CardView>

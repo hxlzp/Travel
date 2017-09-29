@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_person_info_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/personInfo"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_person_info_back"
+            style="@style/titleBtn"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_account"
+        android:layout_below="@+id/rl"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_account"
+            android:text="@string/account"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_account_edit"
+            android:text="@string/phone"
+            android:layout_toRightOf="@+id/btn_activity_person_account"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_account_line"
+        android:layout_below="@+id/rl_activity_person_account"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_photo"
+        android:layout_below="@+id/view_account_line"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_photo"
+            android:text="@string/photo"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_photo_edit"
+            android:layout_toRightOf="@+id/btn_activity_person_photo"
+            style="@style/mineRightBtn"/>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_fragment_mine_photo"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@mipmap/photo"
+            android:scaleType="fitXY"
+            app:riv_border_width="0dp"
+            app:riv_corner_radius="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_photo_line"
+        android:layout_below="@+id/rl_activity_person_photo"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_sex"
+        android:layout_below="@+id/view_photo_line"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_sex"
+            android:text="@string/sex"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_sex_edit"
+            android:text="男"
+            android:layout_toRightOf="@+id/btn_activity_person_sex"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_sex_line"
+        android:layout_below="@+id/rl_activity_person_sex"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_age"
+        android:layout_below="@+id/view_sex_line"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_age"
+            android:text="@string/age"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_age_edit"
+            android:text="20-30岁"
+            android:layout_toRightOf="@+id/btn_activity_person_age"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_age_line"
+        android:layout_below="@+id/rl_activity_person_age"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_nickname"
+        android:layout_below="@+id/view_age_line"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_nickname"
+            android:text="@string/nickname"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_nickname_edit"
+            android:text="晓晓"
+            android:layout_toRightOf="@+id/btn_activity_person_nickname"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_nickname_line"
+        android:layout_below="@+id/rl_activity_person_nickname"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_address"
+        android:layout_below="@+id/view_nickname_line"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_address"
+            android:text="@string/address"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_address_edit"
+            android:text="杭州"
+            android:layout_toRightOf="@+id/btn_activity_person_address"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_address_line"
+        android:layout_below="@+id/rl_activity_person_address"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_person_education"
+        android:layout_below="@+id/view_address_line"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_person_education"
+            android:text="@string/education"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_person_education_edit"
+            android:text="本科"
+            android:layout_toRightOf="@+id/btn_activity_person_education"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:layout_below="@+id/rl_activity_person_education"
+        style="@style/line" />
+</RelativeLayout>

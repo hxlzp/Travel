@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/lmatch_hwrap_style"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tv_item_marquee_one"
+        style="@style/marqueeItem"
+        android:layout_marginBottom="3dp" />
+    <TextView
+        android:id="@+id/tv_item_marquee_two"
+        android:layout_below="@+id/tv_item_marquee_one"
+        android:layout_marginTop="3dp"
+        style="@style/marqueeItem" />
+
+</RelativeLayout>

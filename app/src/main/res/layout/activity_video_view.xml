@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <VideoView
+        android:id="@+id/vv_video"
+        style="@style/both_match_style" />
+    <ImageView
+        android:id="@+id/iv_video_back"
+        android:src="@mipmap/back_white_left"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        style="@style/both_wrap_style" />
+</RelativeLayout>

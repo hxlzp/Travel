@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/backgroundTitle">
+        <ImageView
+            android:id="@+id/iv_activity_setting_back"
+            style="@style/backIcon" />
+        <Button
+            android:text="@string/setting"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/iv_activity_setting_back"
+            style="@style/titleBtn"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_activity_settings_person"
+        android:layout_below="@+id/rl"
+        style="@style/settingBtn"
+        android:text="@string/personInfo" />
+    <View
+        android:id="@+id/view_line_person"
+        android:layout_below="@+id/btn_activity_settings_person"
+        android:layout_marginLeft="5dp"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_settings_cache"
+        android:layout_below="@+id/view_line_person"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_settings_cache"
+            android:text="@string/clearCache"
+            style="@style/mineLeftBtn" />
+        <Button
+            android:id="@+id/btn_activity_settings_clear_cache"
+            android:layout_toRightOf="@+id/btn_activity_settings_cache"
+            style="@style/mineRightBtn" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_line_cache"
+        android:layout_below="@+id/rl_activity_settings_cache"
+        android:layout_marginLeft="5dp"
+        style="@style/line" />
+    <RelativeLayout
+        android:id="@+id/rl_activity_settings_about"
+        android:layout_below="@+id/view_line_cache"
+        style="@style/wmatch_hFifty_style">
+        <Button
+            android:id="@+id/btn_activity_settings_about"
+            android:text="@string/aboutVersions"
+            style="@style/mineLeftBtn"/>
+        <Button
+            android:id="@+id/btn_activity_settings_about_versions"
+            style="@style/mineRightBtn"
+            android:text="@string/versionCode" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_line_about"
+        android:layout_below="@+id/rl_activity_settings_about"
+        android:layout_marginLeft="5dp"
+        style="@style/line" />
+    <TextView
+        android:id="@+id/tv_activity_settings_quit"
+        android:text="@string/safetyQuit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="59dp"
+        style="@style/LoginBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

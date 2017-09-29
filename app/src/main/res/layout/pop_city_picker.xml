@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style">
+    <LinearLayout
+        android:id="@+id/ll_title_background"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/popCityBackground"
+        style="@style/lmatch_hwrap_style">
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/provinceLineBorder">
+
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/confirm"
+                style="@style/cityPopTitle"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_centerHorizontal="true"
+                android:text="@string/selectAddress"
+                style="@style/cityPopTitle"/>
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/cancel"
+                style="@style/cityPopTitle"/>
+        </RelativeLayout>
+        <View
+            style="@style/line" />
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:orientation="horizontal"
+            style="@style/lmatch_hwrap_style">
+            <com.example.hxl.travel.widget.citypicker.widget.wheel.WheelView
+                android:id="@+id/id_province"
+                style="@style/hwrap_wzero_weight_style" />
+            <com.example.hxl.travel.widget.citypicker.widget.wheel.WheelView
+                android:id="@+id/id_city"
+                style="@style/hwrap_wzero_weight_style" />
+            <com.example.hxl.travel.widget.citypicker.widget.wheel.WheelView
+                android:id="@+id/id_district"
+                style="@style/hwrap_wzero_weight_style" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

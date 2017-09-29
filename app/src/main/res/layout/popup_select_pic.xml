@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/both_match_style"
+    android:background="@color/popCityBackground">
+    <LinearLayout
+        style="@style/PopLinearStyle">
+        <Button
+            android:id="@+id/btn_popup_camera"
+            android:text="@string/camera"
+            style="@style/popupSelectPicBtn"/>
+        <View
+            style="@style/line"/>
+        <Button
+            android:id="@+id/btn_popup_photo"
+            style="@style/popupSelectPicBtn"
+            android:text="@string/photoAlbum"/>
+        <Button
+            android:id="@+id/btn_popup_cancel"
+            style="@style/popupSelectPicBtn"
+            android:layout_marginTop="10dp"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+</RelativeLayout>

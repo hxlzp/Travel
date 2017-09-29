@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/ic_login_bg"
+    style="@style/both_match_style">
+    <RelativeLayout
+        android:id="@+id/rl"
+        style="@style/lmatch_hwrap_style">
+        <ImageView
+            android:id="@+id/iv_activity_login_back"
+            style="@style/backIcon" />
+        <Button
+            android:id="@+id/btn_activity_login_register"
+            android:text="@string/register"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/iv_activity_login_back"
+            style="@style/titleBtn" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_activity_login_icon"
+        android:layout_below="@+id/rl"
+        style="@style/icon"/>
+    <TextView
+        android:id="@+id/tv_login_app_name"
+        android:layout_below="@+id/iv_activity_login_icon"
+        style="@style/loginTitle"/>
+    <EditText
+        android:id="@+id/et_activity_login_account"
+        android:layout_below="@+id/tv_login_app_name"
+        android:hint="@string/login_account_hint"
+        android:inputType="phone"
+        android:digits="@string/onlyInputNumber"
+        style="@style/loginEdit"
+        android:theme="@style/loginBtnTheme"/>
+    <EditText
+        android:id="@+id/et_activity_login_password"
+        android:layout_below="@+id/et_activity_login_account"
+        android:hint="@string/login_password_hint"
+        android:inputType="textPassword"
+        android:digits="@string/onlyInputNumberOrLetter"
+        style="@style/loginEdit"
+        android:theme="@style/loginBtnTheme"/>
+    <TextView
+        android:id="@+id/tv_activity_login"
+        style="@style/LoginBtn"
+        android:text="@string/login"
+        android:layout_below="@+id/et_activity_login_password" />
+    <RelativeLayout
+        style="@style/lmatch_hwrap_style"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp">
+        <TextView
+            android:id="@+id/tv_activity_login_third_party"
+            android:text="@string/thirdpartyLogin"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            style="@style/both_wrap_style"/>
+        <ImageView
+            android:id="@+id/iv_activity_login_wechat"
+            style="@style/both_wrap_style"
+            android:layout_below="@+id/tv_activity_login_third_party"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_wechat_icon" />
+    </RelativeLayout>
+</RelativeLayout>

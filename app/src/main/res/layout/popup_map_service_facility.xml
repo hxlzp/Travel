@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/popupWindow">
+    <RelativeLayout
+        android:id="@+id/rl_user"
+        android:layout_margin="15dp"
+        style="@style/lmatch_hwrap_style">
+        <ImageView
+            android:id="@+id/iv_dialog_map_service_facility"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/tv_dialog_map_service_facility_title"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/iv_dialog_map_service_facility"
+            android:layout_toLeftOf="@+id/iv_dialog_map_service_facility_phone"
+            android:maxLines="1"
+            android:maxEms="10"
+            android:ellipsize="marquee"
+            style="@style/both_wrap_style"/>
+        <ImageView
+            android:id="@+id/iv_dialog_map_service_facility_phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_map_phone"
+            android:padding="10dp"
+            style="@style/both_wrap_style"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/rl_user"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/iv_dialog_map_service_facility_distance"
+            android:src="@mipmap/ic_map_popup_nearby"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            style="@style/both_wrap_style" />
+        <TextView
+            android:id="@+id/tv_dialog_map_service_facility_location"
+            android:text="@string/currentLocation"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/iv_dialog_map_service_facility_distance"
+            style="@style/both_wrap_style" />
+
+    </RelativeLayout>
+</RelativeLayout>
